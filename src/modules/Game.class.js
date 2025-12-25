@@ -210,10 +210,10 @@ class Game {
       return;
     }
 
-    const [rowIndex, colIndex] =
+    const [targetRow, targetCol] =
       emptyCells[Math.floor(Math.random() * emptyCells.length)];
 
-    this.field[rowIndex][colIndex] = Math.random() < 0.9 ? 2 : 4;
+    this.field[targetRow][targetCol] = Math.random() < 0.9 ? 2 : 4;
   }
 
   hasFieldChanged(oldField, newField) {

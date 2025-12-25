@@ -94,5 +94,5 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// Initial render
+// Initial render func
 render();
