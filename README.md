@@ -60,7 +60,7 @@ You can change the HTML/CSS layout if you need it.
 
 ## Deploy and Pull Request
 
-1. Replace `<your_account>` with your Github username in the link
+
 - [DEMO LINK](https://alexsand-r.github.io/js_2048_game/)
 
 
